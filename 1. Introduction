@@ -31,7 +31,7 @@ NoSQL DBMS: A NoSQL DBMS stores data in non-relational data structures, such as 
 Necessary for DBMS:- 
 
 1. Data Integrity and Consistency:
-Data integrity and consistency are very important for every data center. DBMS provides a mechanism to ensure data accuracy and consistency. These procedures include restrictions, triggers, and retention procedures that protect data integrity. DBMS also provides features such as transformations to ensure data changes are atomic, consistent, isolated, and stable (ACID). 
+Data integrity and consistency are very important for every data centre. DBMS provides a mechanism to ensure data accuracy and consistency. These procedures include restrictions, triggers, and retention procedures that protect data integrity. DBMS also provides features such as transformations to ensure data changes are atomic, consistent, isolated, and stable (ACID). 
 2. Concurrent data access:
 DBMS provides a concurrent access system that allows multiple users to access data simultaneously. This is especially important for organizations that need real-time data access. A DBMS uses a locking mechanism to ensure that multiple users can access the same data without conflicts or invalid data. Analysis and Reporting:
 DBMS provides tools that support data analysis and reporting. These tools enable organizations to gain insights from data so they can make better decisions. DBMS supports various data analysis methods such as OLAP, data mining, and machine learning. Additionally, DBMS provides features such as data visualization and reporting that allow organizations to present their data in a visual and easy-to-understand way. 
