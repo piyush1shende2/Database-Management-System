@@ -6,6 +6,7 @@ Types of Keys in Relational Model
 4. Alternate Key
 5. Foreign Key
 6. Composite Key
+7. Unique Key
 
 
 Candidate Key:-
@@ -43,4 +44,18 @@ It acts as a cross-reference between tables because it references the primary ke
 If an attribute can only be derived from values ​​that occur in other attributes, then it will be a foreign key to the attribute it references.
 The relationship is called a relationship and the corresponding behavior is called a reference behavior.
 The use of social behavior should be a priority. or multiple relationships (tables).
+
+Composite Key:- 
+A composite key is a candidate key that consists of two or more attributes, (table columns) that together uniquely identify an entity occurrence (table row).
+If there is no primary key in the table, it becomes a secondary key or a composite key is created by using several properties together.
+The combination of different attributes can provide different accuracy on different lines.
+
+Unique Key:-
+A unique key is a key that uniquely identifies the data in a table.
+It differs from a primary key in that a unique key can have a NULL value, but a primary key cannot have a NULL value.
+
+Artificial Key:- 
+False keys are keys used when none of the attributes have all the attributes of the primary key or when the primary key is large and complex.
+Dummy keys are additional properties that the user can see in the table but are not present.
+It can analyze its own syntax or check its code.
 
