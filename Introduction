@@ -1,0 +1,7 @@
+Definition:- A database management system is the software or technology used to manage information in a database. Some popular databases are MySQL, Oracle, MongoDB, etc. Create database, save to database, update existing database, delete from the database. DBMS is a system that allows you to store, update, and store data in a unified manner. It also ensures the security of the database. A database is a collection of information that can be easily created, modified, accessed, and managed. Data is stored in tables or objects. A tuple (row) represents an entry in the table. DBMS operates on data in the database in queries given by users.
+
+Some Advantages of DBMS are: 
+Data sharing: Data in the same database can be shared by many users at the same time.
+Data independence: Allows the data structure to change without changing the context of the execution.
+Authentication and encryption are tools used to ensure data security in DBMS.
+
