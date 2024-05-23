@@ -5,3 +5,4 @@ Data sharing: Data in the same database can be shared by many users at the same 
 Data independence: Allows the data structure to change without changing the context of the execution.
 Authentication and encryption are tools used to ensure data security in DBMS.
 
+![1](https://github.com/piyush1shende2/Database-Management-System/assets/163756496/9721859a-053f-46ed-b3c5-877f3cbc3cb7)
