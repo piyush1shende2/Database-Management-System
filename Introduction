@@ -1,8 +1,30 @@
 Definition:- A database management system is the software or technology used to manage information in a database. Some popular databases are MySQL, Oracle, MongoDB, etc. Create database, save to database, update existing database, delete from the database. DBMS is a system that allows you to store, update, and store data in a unified manner. It also ensures the security of the database. A database is a collection of information that can be easily created, modified, accessed, and managed. Data is stored in tables or objects. A tuple (row) represents an entry in the table. DBMS operates on data in the database in queries given by users.
 
+
 Some Advantages of DBMS are: 
+
 Data sharing: Data in the same database can be shared by many users at the same time.
 Data independence: Allows the data structure to change without changing the context of the execution.
 Authentication and encryption are tools used to ensure data security in DBMS.
 
 ![1](https://github.com/piyush1shende2/Database-Management-System/assets/163756496/9721859a-053f-46ed-b3c5-877f3cbc3cb7)
+
+
+DBMS Applications:
+Business Information: Sales, Marketing, Human Resources, Manufacturing, Online Sellers.
+Finance: Keeps records of sales and insurance and purchases of securities and bonds.
+Contact: Copayment and medical bills.
+
+
+Disadvantages of DBMS:
+Complexity: DBMS can be difficult to install and maintain, requiring special knowledge and skills.
+level. It is very high, especially for large or complex systems.
+Provide storage services.
+
+
+Various types of DBMS
+Relational DBMS (RDBMS): RDBMS stores data in tables with rows and columns and uses SQL (Structured Query Language) to manage the data.
+OODBMS stores data as objects and can be manipulated using functional expressions.
+NoSQL DBMS: A NoSQL DBMS stores data in non-relational data structures, such as key-value pairs, document-based models, or graph models.
+
+Applications, Disadvantages, types
