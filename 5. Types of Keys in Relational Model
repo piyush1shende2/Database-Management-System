@@ -1,0 +1,46 @@
+Types of Keys in Relational Model
+
+1. Candidate Key
+2. Primary Key
+3. Super Key
+4. Alternate Key
+5. Foreign Key
+6. Composite Key
+
+
+Candidate Key:-
+This is the minimum key.
+It is a super key that contains no duplicate data, called the adversary's key.
+The smallest set of criteria that can be used to describe specific data.
+It must have certain values. It can have NULL values.
+Every table must have at least one candidate key.
+A table can have many candidate keys but only one key.
+Candidate key values ​​are unique and can be null for tuples.
+There will be many important rivals in the relationship.
+
+Primary Key:-
+A primary key in DBMS is uniquely identifying each record or row within a table.
+This is a private key.
+It only recognizes one tuple (one file) at a time.
+It has no equal, it is unique. It cannot be NULL.
+The primary key does not have to be a single column; many rows can act as primary keys of the table.
+
+Super Key:-
+The set of properties that uniquely identify a tuple is called a super key.
+Adding zero or more characters to the candidate key creates a superkey.
+The candidate key is the super key but has not been modified.
+Super Key values ​​can also be NULL.
+
+Alternate Key:- 
+Keys that are not primary keys are called secondary keys.
+Any key other than the primary key is called an alternate key.
+This is a modified key.
+Contains two or more fields to describe two or more documents.
+
+Foreign Key:- 
+A foreign key is a column or group of columns in a relational database table that provides a link between data in two tables.
+It acts as a cross-reference between tables because it references the primary key of another table, thereby establishing a link between them.
+If an attribute can only be derived from values ​​that occur in other attributes, then it will be a foreign key to the attribute it references.
+The relationship is called a relationship and the corresponding behavior is called a reference behavior.
+The use of social behavior should be a priority. or multiple relationships (tables).
+
