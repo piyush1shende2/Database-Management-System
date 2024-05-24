@@ -1,0 +1,46 @@
+Join operation vs. Nested query
+
+
+Join operation:- A join combines data from two or more tables into one or more data structures. Joining is done using the JOIN keyword in SQL; this returns a result containing rows from all tables joined.
+
+Example:- 
+
+Table1
+ID | Name
+1 | John
+2 | Sarah
+3 | David
+
+Table2
+ID | Address
+1 | 123 Main St.
+2 | 456 Elm St.
+4 | 789 Oak St.
+
+Result:
+ID | Name | Address
+1 | John | 123 Main St.
+2 | Sarah | 456 Elm St.
+
+
+Nested query:- A nested query is a SQL query embedded within another SQL query. It is used to extract data from one or more tables based on criteria using the results of other queries. The nested query is placed first and its result is used to evaluate the outer query.
+
+Example:-
+
+Table1
+ID | Name
+1 | John
+2 | Sarah
+3 | David
+
+Table2
+ID | Address
+1 | 123 Main St.
+2 | 456 Elm St.
+4 | 789 Oak St.
+
+Result:
+Name
+John
+Sarah
+
