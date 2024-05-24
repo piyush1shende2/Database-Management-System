@@ -13,6 +13,9 @@ Relational algebra has mainly 9 types of operators.
 7. JOIN
 8. DIVISION
 9. RENAME
+10. Set Difference
+11. Set Intersection
+12. Cartesian Product
 
 
 UNION:- A and B are two relations. It shows the total value (attitude) in two relationships. It disrupts the balance of the relationship. The symbol U may be used.
@@ -103,6 +106,19 @@ Example:-
 It changes the “student” relation to the “Marks” relation.
 It also renames the specified column.
 It changes the old-column name to the new-column name.
+
+
+Set Difference(-):- Identifying differences in relational algebra is the same as identifying differences in theory.
+
+Syntax:- π(Student_Name)FRENCH - π(Student_Name)GERMAN
+
+
+Set Intersection(∩):- Set Intersection in relational algebra is the same as Set Intersection in theory.
+
+Syntax:- π(Student_Name)FRENCH ∩ π(Student_Name)GERMAN
+
+
+Cross Product(X):- Cross-product between two relations. Let’s say A and B, so the cross product between A X B will result in all the attributes of A followed by each attribute of B. Each record of A will pair with every record of B.
 
 
 Advantages of Relational Algebra:-
