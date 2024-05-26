@@ -36,3 +36,15 @@ Response time: The time taken to get a response from the CPU for the first time 
 Productivity: The ratio of output rate to input is called productivity. Therefore, concurrency leads to greater efficiency.
 
 
+Transaction:- A transaction is a collection of functions that perform a function in a database application. Every operation is an atomic and unitary unit. Therefore, we want to make sure that the process does not violate any data-related restrictions. That is, if the data is kept the same at the beginning of the transaction, it should be the same when the transaction is completed. However, since A's debt or B's receivables must be completed before the other during the transaction, temporary permission must be given otherwise.
+
+Properties of a Transaction:-
+1. Atomicity: As a transaction is a set of logically related operations, either all of them should be executed or none. A debit transaction discussed above should either execute all three operations or none. If the debit transaction fails after executing operations 1 and 2 then its new value of 4000 will not be updated in the database which leads to inconsistency.
+2. Consistency: If operations of debit and credit transactions on the same account are executed concurrently, it may leave the database in an inconsistent state.
+3. Isolation: The result of a transaction should not be visible to others before the transaction is committed. For example, let us assume that A’s balance is Rs. 5000 and T1 debits Rs. 1000 from A. A’s new balance will be 4000. If T2 credits Rs. 500 to A’s new balance, A will become 4500, and after this T1 fails. Then we have to roll back T2 as well because it is using the value produced by T1. So transaction results are not made visible to other transactions before it commits.
+4. Durable: Once the database has committed a transaction, the changes made by the transaction should be permanent. e.g.; If a person has credited $500000 to his account, the bank can’t say that the update has been lost. To avoid this problem, multiple copies of the database are stored at different locations.
+
+Schedule:- A schedule is a series of operations from one or more transactions.
+Serial Schedule:- When one process is completed before the beginning of another, the planning is called serial planning. The serial time is always the same.
+Concurrent Schedule:- When the operation of the process is affected by the operation of other scheduled operations, it is called concurrent scheduling.
+
